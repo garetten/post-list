@@ -1,0 +1,28 @@
+.post-container{
+    margin: 0 auto;
+    max-width: 1080px;
+  }
+  
+  .post__title{
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .post__body{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0 ;
+  }
+
+  .comment{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+    
+  }
+  
+
+  .comment__email{
+    color: blue;
+    font-size: 18px;
+  }

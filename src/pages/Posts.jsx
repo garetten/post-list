@@ -12,7 +12,7 @@ import Pagination from '../component/UI/pagination/Pagination';
 
 
 
-function Home() {
+function Posts() {
   const [posts,setPosts] = useState([]);
   const [filter,setFilter] = useState({sort:'',query:'',});
   const [modal,setModal] = useState(false);
@@ -65,4 +65,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Posts;
