@@ -15,8 +15,10 @@ function PostItem(props){
                 <div className="post_title">{props.post.id} . {props.post.title}</div>
                 <div className="post_body">{props.post.body}</div>
             </div>
-            <Button className="post_button" onClick={openPost}>Open</Button>
-            <Button className="post_button" onClick={()=>{props.removePost(props.post);}}>delete</Button>
+            <div className={cl.post_button_container}>
+                <Button className="post_button" onClick={openPost}>Open</Button>
+                <Button className="post_button" onClick={()=>{props.removePost(props.post);}}>delete</Button>
+            </div>
         </div>
     );
 }

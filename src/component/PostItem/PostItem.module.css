@@ -7,3 +7,7 @@
     align-items: center;
     width: 100%;
 }
+.post_button_container{
+    display: flex;
+    margin-left: 10px;
+}
