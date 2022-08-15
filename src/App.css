@@ -26,6 +26,7 @@ html,body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .page{
   padding: 5px 15px;
